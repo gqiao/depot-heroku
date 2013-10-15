@@ -44,13 +44,16 @@ gem 'jquery-rails'
 gem 'will_paginate', '>= 3.0.pre'
 
 group :production do
-  gem 'mysql'
+  gem 'pg'
+#  gem 'mysql'
 end
 
 group :development do
-  gem 'sqlite3'
+  gem 'pg'
+#  gem 'sqlite3'
 end
 
 group :test do
-  gem 'sqlite3'
+  gem 'pg'
+#  gem 'sqlite3'
 end
