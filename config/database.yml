@@ -1,8 +1,11 @@
 # postgresql
-#   sudo apt-get install postgresql
+#   sudo apt-get install postgresql libpq-dev
 #   sudo su postgres -c psql
 #   alter user postgres password 'apassword';
 #   rake db:create
+#   rake db:migrate
+#   rake db:seed
+#   heroku login
 #
 development:
     adapter: postgresql
